@@ -1,0 +1,47 @@
+h4 {
+  font-family: verdana;
+  font-size: 2rem;
+  text-align: center;
+}
+
+svg {
+  border: 1px solid #d9d9d9;
+  fill: none;
+  stroke: green;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+path {
+  vector-effect: non-scaling-stroke;
+}
+
+textarea {
+  width: 100%;
+  max-width: 30rem;
+  margin: 1em auto;
+  display: block;
+}
+
+.wrap {
+  max-width: 30rem;
+  margin: 1em auto;
+}
+
+.wrap:nth-of-type(2) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+p {
+  text-align: center;
+}
+em {
+  font-family: serif;
+}
+#theDefs {
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: -100em;
+}
